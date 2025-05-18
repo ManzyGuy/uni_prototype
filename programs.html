@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NKHOMA SYNOD| Programs</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar (same as index.html) -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" class="navbar__logo">
+                <span class="navbar__logo-text">NKHOMA SYNOD</span>
+                <span class="navbar__logo-suffix">University</span>
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="navbar__toggle-bar"></span>
+                <span class="navbar__toggle-bar"></span>
+                <span class="navbar__toggle-bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="schools.html" class="navbar__links">Schools</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="programs.html" class="navbar__links navbar__links--active">Programs</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="news.html" class="navbar__links">News</a>
+                </li>
+               
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Programs Hero Section -->
+    <section class="page-hero">
+        <div class="page-hero__container">
+            <h1 class="page-hero__title">Academic Programs</h1>
+            <p class="page-hero__subtitle">Discover our comprehensive range of undergraduate, graduate, and professional programs designed to prepare you for success.</p>
+        </div>
+    </section>
+
+    <!-- Programs Filter Section -->
+    <section class="programs-filter">
+        <div class="programs-filter__container">
+            <div class="programs-filter__search">
+                <input type="text" placeholder="Search programs..." class="programs-filter__input">
+                <button class="programs-filter__search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="programs-filter__options">
+                <select class="programs-filter__select">
+                    <option value="">All Schools</option>
+                    <option value="engineering">Engineering</option>
+                    <option value="arts">Arts & Sciences</option>
+                    <option value="business">Business</option>
+                    <option value="medicine">Medicine</option>
+                    <option value="law">Law</option>
+                    <option value="education">Education</option>
+                </select>
+                <select class="programs-filter__select">
+                    <option value="">All Levels</option>
+                    <option value="undergraduate">Undergraduate</option>
+                    <option value="graduate">Graduate</option>
+                    <option value="phd">PhD</option>
+                    <option value="professional">Professional</option>
+                    <option value="certificate">Certificate</option>
+                </select>
+                <select class="programs-filter__select">
+                    <option value="">All Formats</option>
+                    <option value="on-campus">On Campus</option>
+                    <option value="online">Online</option>
+                    <option value="hybrid">Hybrid</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs List Section -->
+    <section class="programs-list">
+        <div class="programs-list__container">
+            <div class="programs-list__header">
+                <h2 class="programs-list__title">Undergraduate Programs</h2>
+                <p class="programs-list__subtitle">Bachelor's degrees that provide strong foundations for careers and advanced study.</p>
+            </div>
+            <div class="programs-list__grid">
+                <div class="programs-list__card">
+                    <div class="programs-list__icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="programs-list__content">
+                        <h3 class="programs-list__name">Computer Science (B.S.)</h3>
+                        <p class="programs-list__school">School of Engineering</p>
+                        <p class="programs-list__description">Comprehensive curriculum covering algorithms, systems, AI, and software development with hands-on projects.</p>
+                        <div class="programs-list__details">
+                            <span class="programs-list__detail"><i class="fas fa-clock"></i> 4 Years</span>
+                            <span class="programs-list__detail"><i class="fas fa-map-marker-alt"></i> On Campus</span>
+                        </div>
+                        <a href="#" class="programs-list__link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="programs-list__card">
+                    <div class="programs-list__icon">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <div class="programs-list__content">
+                        <h3 class="programs-list__name">Biochemistry (B.S.)</h3>
+                        <p class="programs-list__school">School of Arts & Sciences</p>
+                        <p class="programs-list__description">Interdisciplinary program combining chemistry and biology with research opportunities in state-of-the-art labs.</p>
+                        <div class="programs-list__details">
+                            <span class="programs-list__detail"><i class="fas fa-clock"></i> 4 Years</span>
+                            <span class="programs-list__detail"><i class="fas fa-map-marker-alt"></i> On Campus</span>
+                        </div>
+                        <a href="#" class="programs-list__link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="programs-list__card">
+                    <div class="programs-list__icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="programs-list__content">
+                        <h3 class="programs-list__name">Business Administration (B.B.A.)</h3>
+                        <p class="programs-list__school">School of Business</p>
+                        <p class="programs-list__description">Flexible program with concentrations in finance, marketing, management, and entrepreneurship.</p>
+                        <div class="programs-list__details">
+                            <span class="programs-list__detail"><i class="fas fa-clock"></i> 4 Years</span>
+                            <span class="programs-list__detail"><i class="fas fa-map-marker-alt"></i> On Campus/Online</span>
+                        </div>
+                        <a href="#" class="programs-list__link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="programs-list__header">
+                <h2 class="programs-list__title">Graduate Programs</h2>
+                <p class="programs-list__subtitle">Master's and doctoral programs for advanced study and research.</p>
+            </div>
+            <div class="programs-list__grid">
+                <div class="programs-list__card">
+                    <div class="programs-list__icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <div class="programs-list__content">
+                        <h3 class="programs-list__name">Medical Doctor (M.D.)</h3>
+                        <p class="programs-list__school">School of Medicine</p>
+                        <p class="programs-list__description">Rigorous medical training program with early clinical exposure and research opportunities.</p>
+                        <div class="programs-list__details">
+                            <span class="programs-list__detail"><i class="fas fa-clock"></i> 4 Years</span>
+                            <span class="programs-list__detail"><i class="fas fa-map-marker-alt"></i> On Campus</span>
+                        </div>
+                        <a href="#" class="programs-list__link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="programs-list__card">
+                    <div class="programs-list__icon">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <div class="programs-list__content">
+                        <h3 class="programs-list__name">Juris Doctor (J.D.)</h3>
+                        <p class="programs-list__school">School of Law</p>
+                        <p class="programs-list__description">Comprehensive legal education with clinics, externships, and specialized tracks.</p>
+                        <div class="programs-list__details">
+                            <span class="programs-list__detail"><i class="fas fa-clock"></i> 3 Years</span>
+                            <span class="programs-list__detail"><i class="fas fa-map-marker-alt"></i> On Campus</span>
+                        </div>
+                        <a href="#" class="programs-list__link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="programs-list__card">
+                    <div class="programs-list__icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="programs-list__content">
+                        <h3 class="programs-list__name">Artificial Intelligence (M.S.)</h3>
+                        <p class="programs-list__school">School of Engineering</p>
+                        <p class="programs-list__description">Advanced study in machine learning, neural networks, and AI applications across industries.</p>
+                        <div class="programs-list__details">
+                            <span class="programs-list__detail"><i class="fas fa-clock"></i> 2 Years</span>
+                            <span class="programs-list__detail"><i class="fas fa-map-marker-alt"></i> On Campus/Online</span>
+                        </div>
+                        <a href="#" class="programs-list__link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="programs-list__header">
+                <h2 class="programs-list__title">Professional & Certificate Programs</h2>
+                <p class="programs-list__subtitle">Specialized programs for career advancement and professional development.</p>
+            </div>
+            <div class="programs-list__grid">
+                <div class="programs-list__card">
+                    <div class="programs-list__icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="programs-list__content">
+                        <h3 class="programs-list__name">Data Science Certificate</h3>
+                        <p class="programs-list__school">School of Engineering</p>
+                        <p class="programs-list__description">Intensive program covering data analysis, visualization, and machine learning techniques.</p>
+                        <div class="programs-list__details">
+                            <span class="programs-list__detail"><i class="fas fa-clock"></i> 6 Months</span>
+                            <span class="programs-list__detail"><i class="fas fa-map-marker-alt"></i> Online</span>
+                        </div>
+                        <a href="#" class="programs-list__link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="programs-list__card">
+                    <div class="programs-list__icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="programs-list__content">
+                        <h3 class="programs-list__name">Executive MBA</h3>
+                        <p class="programs-list__school">School of Business</p>
+                        <p class="programs-list__description">Weekend program for experienced professionals seeking leadership development.</p>
+                        <div class="programs-list__details">
+                            <span class="programs-list__detail"><i class="fas fa-clock"></i> 18 Months</span>
+                            <span class="programs-list__detail"><i class="fas fa-map-marker-alt"></i> Hybrid</span>
+                        </div>
+                        <a href="#" class="programs-list__link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="programs-list__card">
+                    <div class="programs-list__icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="programs-list__content">
+                        <h3 class="programs-list__name">Teaching Certification</h3>
+                        <p class="programs-list__school">School of Education</p>
+                        <p class="programs-list__description">State-approved program for aspiring K-12 teachers with practicum experience.</p>
+                        <div class="programs-list__details">
+                            <span class="programs-list__detail"><i class="fas fa-clock"></i> 1 Year</span>
+                            <span class="programs-list__detail"><i class="fas fa-map-marker-alt"></i> On Campus</span>
+                        </div>
+                        <a href="#" class="programs-list__link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Highlights Section -->
+    <section class="program-highlights">
+        <div class="program-highlights__container">
+            <h2 class="program-highlights__title">Program Highlights</h2>
+            <div class="program-highlights__grid">
+                <div class="program-highlights__card">
+                    <i class="fas fa-globe-americas program-highlights__icon"></i>
+                    <h3 class="program-highlights__card-title">Global Opportunities</h3>
+                    <p class="program-highlights__card-text">Study abroad programs, international internships, and global research collaborations.</p>
+                </div>
+                <div class="program-highlights__card">
+                    <i class="fas fa-handshake program-highlights__icon"></i>
+                    <h3 class="program-highlights__card-title">Industry Connections</h3>
+                    <p class="program-highlights__card-text">Strong partnerships with leading companies for internships, mentorships, and job placements.</p>
+                </div>
+                <div class="program-highlights__card">
+                    <i class="fas fa-microscope program-highlights__icon"></i>
+                    <h3 class="program-highlights__card-title">Research Focus</h3>
+                    <p class="program-highlights__card-text">Undergraduate and graduate research opportunities with faculty experts.</p>
+                </div>
+                <div class="program-highlights__card">
+                    <i class="fas fa-user-tie program-highlights__icon"></i>
+                    <h3 class="program-highlights__card-title">Career Support</h3>
+                    <p class="program-highlights__card-text">Dedicated career services with resume workshops, interview prep, and recruitment events.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__brand">
+                <a href="index.html" class="footer__logo">
+                    <span class="footer__logo-text">Nkhoma Synod</span>
+                    <span class="footer__logo-suffix">University</span>
+                </a>
+                <p class="footer__mission">Committed to excellence in education, research, and innovation since 1890.</p>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="footer__social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="footer__social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="footer__social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="footer__social-link"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer__links">
+                <div class="footer__links-group">
+                    <h3 class="footer__links-title">Quick Links</h3>
+                    <ul class="footer__links-list">
+                        <li><a href="index.html" class="footer__link">Home</a></li>
+                        <li><a href="schools.html" class="footer__link">Schools</a></li>
+                        <li><a href="programs.html" class="footer__link">Programs</a></li>
+                        <li><a href="news.html" class="footer__link">News</a></li>
+                        <li><a href="#" class="footer__link">Admissions</a></li>
+                        <li><a href="#" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__links-group">
+                    <h3 class="footer__links-title">Resources</h3>
+                    <ul class="footer__links-list">
+                        <li><a href="#" class="footer__link">Library</a></li>
+                        <li><a href="#" class="footer__link">Calendar</a></li>
+                        <li><a href="#" class="footer__link">Careers</a></li>
+                        <li><a href="#" class="footer__link">Alumni</a></li>
+                        <li><a href="#" class="footer__link">Give</a></li>
+                        <li><a href="#" class="footer__link">Directory</a></li>
+                    </ul>
+                </div>
+                <div class="footer__links-group">
+                    <h3 class="footer__links-title">Contact</h3>
+                    <ul class="footer__links-list">
+                        <li><i class="fas fa-map-marker-alt footer__contact-icon"></i> 123 University Ave, Lilongwe City, PC 12345</li>
+                        <li><i class="fas fa-phone-alt footer__contact-icon"></i> (265) 099-456-7890</li>
+                        <li><i class="fas fa-envelope footer__contact-icon"></i> info@NkhomaSynodUniversity.edu</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p class="footer__copyright">&copy; 2025 Nkhoma Synod University. All rights reserved.</p>
+            <div class="footer__legal">
+                <a href="#" class="footer__legal-link">Privacy Policy</a>
+                <a href="#" class="footer__legal-link">Terms of Service</a>
+                <a href="#" class="footer__legal-link">Accessibility</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

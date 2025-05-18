@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NKHOMA SYNOD | News</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar (same as index.html) -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" class="navbar__logo">
+                <span class="navbar__logo-text">NKHOMA SYNOD</span>
+                <span class="navbar__logo-suffix">University</span>
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="navbar__toggle-bar"></span>
+                <span class="navbar__toggle-bar"></span>
+                <span class="navbar__toggle-bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="schools.html" class="navbar__links">Schools</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="programs.html" class="navbar__links">Programs</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="news.html" class="navbar__links navbar__links--active">News</a>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <!-- News Hero Section -->
+    <section class="page-hero">
+        <div class="page-hero__container">
+            <h1 class="page-hero__title">University News</h1>
+            <p class="page-hero__subtitle">Stay updated with the latest happenings, achievements, and events at Prestige University.</p>
+        </div>
+    </section>
+
+    <!-- News Categories Section -->
+    <section class="news-categories">
+        <div class="news-categories__container">
+            <button class="news-categories__btn news-categories__btn--active">All News</button>
+            <button class="news-categories__btn">Campus Life</button>
+            <button class="news-categories__btn">Research</button>
+            <button class="news-categories__btn">Events</button>
+            <button class="news-categories__btn">Alumni</button>
+            <button class="news-categories__btn">Athletics</button>
+        </div>
+    </section>
+
+    <!-- Featured News Section -->
+    <section class="featured-news">
+        <div class="featured-news__container">
+            <div class="featured-news__main">
+                <div class="featured-news__image-container">
+                    <img src="images/scientist.jpg" alt="Featured News" class="featured-news__image">
+                    <span class="featured-news__category">Research</span>
+                </div>
+                <div class="featured-news__content">
+                    <span class="featured-news__date">June 18, 2023</span>
+                    <h2 class="featured-news__title">University Scientists Discover Potential Breakthrough in Renewable Energy Storage</h2>
+                    <p class="featured-news__excerpt">A team of researchers from the Department of Chemical Engineering has developed a novel material that could dramatically improve the efficiency and capacity of batteries for renewable energy storage. The discovery, published in Science, has attracted attention from major energy companies...</p>
+                    <a href="#" class="featured-news__read-more">Read Full Story <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Grid Section -->
+    <section class="news-grid">
+        <div class="news-grid__container">
+            <div class="news-grid__card">
+                <div class="news-grid__image-container">
+                    <img src="images/business.jpg" alt="Campus News" class="news-grid__image">
+                    <span class="news-grid__category">Campus Life</span>
+                </div>
+                <div class="news-grid__content">
+                    <span class="news-grid__date">June 15, 2023</span>
+                    <h3 class="news-grid__title">University Announces New Sustainability Initiatives</h3>
+                    <p class="news-grid__excerpt">The institution has committed to becoming carbon neutral by 2030 through a series of ambitious sustainability measures across campus...</p>
+                    <a href="#" class="news-grid__read-more">Read More</a>
+                </div>
+            </div>
+            <div class="news-grid__card">
+                <div class="news-grid__image-container">
+                    <img src="images/alumna.jpg" alt="Alumni News" class="news-grid__image">
+                    <span class="news-grid__category">Alumni</span>
+                </div>
+                <div class="news-grid__content">
+                    <span class="news-grid__date">June 12, 2023</span>
+                    <h3 class="news-grid__title">Alumna Wins International Award</h3>
+                    <p class="news-grid__excerpt">Dr. John Banda (Class of '10) has been awarded the Global Innovation Prize for her work in developing affordable medical diagnostic tools...</p>
+                    <a href="#" class="news-grid__read-more">Read More</a>
+                </div>
+            </div>
+            <div class="news-grid__card">
+                <div class="news-grid__image-container">
+                    <img src="images/football.JPG" alt="Sports News" class="news-grid__image">
+                    <span class="news-grid__category">Athletics</span>
+                </div>
+                <div class="news-grid__content">
+                    <span class="news-grid__date">June 8, 2023</span>
+                    <h3 class="news-grid__title">Nkhoma Synod Panthers Win National Championship</h3>
+                    <p class="news-grid__excerpt">The university's basketball team secured their first national title in 25 years with a thrilling overtime victory against rivals...</p>
+                    <a href="#" class="news-grid__read-more">Read More</a>
+                </div>
+            </div>
+            <div class="news-grid__card">
+                <div class="news-grid__image-container">
+                    <img src="images/alumna.jpg" alt="Event News" class="news-grid__image">
+                    <span class="news-grid__category">Events</span>
+                </div>
+                <div class="news-grid__content">
+                    <span class="news-grid__date">June 5, 2023</span>
+                    <h3 class="news-grid__title">Annual Research Symposium Showcases Student Work</h3>
+                    <p class="news-grid__excerpt">Over 300 undergraduate and graduate students presented their research projects at the university's 15th annual research symposium...</p>
+                    <a href="#" class="news-grid__read-more">Read More</a>
+                </div>
+            </div>
+            <div class="news-grid__card">
+                <div class="news-grid__image-container">
+                    <img src="images/medicine.jpg" alt="Research News" class="news-grid__image">
+                    <span class="news-grid__category">Research</span>
+                </div>
+                <div class="news-grid__content">
+                    <span class="news-grid__date">June 1, 2023</span>
+                    <h3 class="news-grid__title">$10M Grant Awarded for Climate Change Research</h3>
+                    <p class="news-grid__excerpt">A multidisciplinary team has received major funding to study the impact of climate change on coastal urban areas...</p>
+                    <a href="#" class="news-grid__read-more">Read More</a>
+                </div>
+            </div>
+            <div class="news-grid__card">
+                <div class="news-grid__image-container">
+                    <img src="images/brushes-mug.jpg" alt="Arts News" class="news-grid__image">
+                    <span class="news-grid__category">Campus Life</span>
+                </div>
+                <div class="news-grid__content">
+                    <span class="news-grid__date">May 28, 2023</span>
+                    <h3 class="news-grid__title">New Arts Initiative Brings World-Class Performances to Campus</h3>
+                    <p class="news-grid__excerpt">The university has launched a performing arts series that will feature renowned musicians, dancers, and theater companies...</p>
+                    <a href="#" class="news-grid__read-more">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="newsletter__container">
+            <div class="newsletter__content">
+                <h2 class="newsletter__title">Stay Connected</h2>
+                <p class="newsletter__text">Subscribe to our newsletter to receive the latest news and updates directly to your inbox.</p>
+            </div>
+            <form class="newsletter__form">
+                <input type="email" placeholder="Your email address" class="newsletter__input" required>
+                <button type="submit" class="newsletter__btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__brand">
+                <a href="index.html" class="footer__logo">
+                    <span class="footer__logo-text">Nkhoma Synod</span>
+                    <span class="footer__logo-suffix">University</span>
+                </a>
+                <p class="footer__mission">Committed to excellence in education, research, and innovation since 1890.</p>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="footer__social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="footer__social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="footer__social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="footer__social-link"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer__links">
+                <div class="footer__links-group">
+                    <h3 class="footer__links-title">Quick Links</h3>
+                    <ul class="footer__links-list">
+                        <li><a href="index.html" class="footer__link">Home</a></li>
+                        <li><a href="schools.html" class="footer__link">Schools</a></li>
+                        <li><a href="programs.html" class="footer__link">Programs</a></li>
+                        <li><a href="news.html" class="footer__link">News</a></li>
+                        <li><a href="#" class="footer__link">Admissions</a></li>
+                        <li><a href="#" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__links-group">
+                    <h3 class="footer__links-title">Resources</h3>
+                    <ul class="footer__links-list">
+                        <li><a href="#" class="footer__link">Library</a></li>
+                        <li><a href="#" class="footer__link">Calendar</a></li>
+                        <li><a href="#" class="footer__link">Careers</a></li>
+                        <li><a href="#" class="footer__link">Alumni</a></li>
+                        <li><a href="#" class="footer__link">Give</a></li>
+                        <li><a href="#" class="footer__link">Directory</a></li>
+                    </ul>
+                </div>
+                <div class="footer__links-group">
+                    <h3 class="footer__links-title">Contact</h3>
+                    <ul class="footer__links-list">
+                        <li><i class="fas fa-map-marker-alt footer__contact-icon"></i> 123 University Ave, Lilongwe City, PC 12345</li>
+                        <li><i class="fas fa-phone-alt footer__contact-icon"></i> (265) 099-456-7890</li>
+                        <li><i class="fas fa-envelope footer__contact-icon"></i> info@NkhomaSynodUniversity.edu</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p class="footer__copyright">&copy; 2025 Nkhoma Synod University. All rights reserved.</p>
+            <div class="footer__legal">
+                <a href="#" class="footer__legal-link">Privacy Policy</a>
+                <a href="#" class="footer__legal-link">Terms of Service</a>
+                <a href="#" class="footer__legal-link">Accessibility</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
